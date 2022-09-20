@@ -1981,7 +1981,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #474747;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2374,33 +2374,34 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 2px #e9e9e9;
 			border-left: 0;
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
+			/* table tbody tr:nth-child(2n + 1) {
 				background-color: #f7f7f7;
-			}
+			} */
 
 		table td {
 			padding: 0.75em 0.75em;
 		}
 
 		table th {
-			color: #787878;
-			font-size: 0.9em;
-			font-weight: 400;
+			color: #474747;
+			font-size: 1em;
+			font-weight: bold;
 			padding: 0 0.75em 0.75em 0.75em;
+			line-height: 1.5em;
 			text-align: left;
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2.1px #474747;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #e9e9e9;
 		}
 
 		table.alt {
@@ -2446,18 +2447,19 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #efefef !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
 		height: 3.15em;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
-		min-width: 10em;
-		padding: 0 1.5em;
+		min-width: 5em;
+		/* padding: 0 1.5em; */
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		-webkit-text-stroke-width: medium;
 	}
 
 		input[type="submit"]:hover,
@@ -2622,7 +2624,6 @@ input, select, textarea {
 			flex-grow: 1;
 			margin: 0 0 2em 0;
 		}
-
 		#header strong, #header b {
 			color: #ffffff;
 		}
@@ -3012,7 +3013,6 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
-
 		/* Footer */
 
 			#footer .copyright li {
@@ -3163,7 +3163,6 @@ input, select, textarea {
 				#header h1 {
 					font-size: 1.35em;
 				}
-
 		/* Footer */
 
 			#footer {
