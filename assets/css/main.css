@@ -2459,7 +2459,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		-webkit-text-stroke-width: medium;
+		-webkit-text-stroke-width: thin;
 	}
 
 		input[type="submit"]:hover,
